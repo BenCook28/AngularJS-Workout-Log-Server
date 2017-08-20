@@ -4,8 +4,7 @@
   "description": "server for workout log app",
   "main": "apps.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .\\node_modules\\http-server\\bin\\http-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ben Cook",
   "license": "MIT",
