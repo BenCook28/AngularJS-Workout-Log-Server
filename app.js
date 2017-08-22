@@ -1,12 +1,11 @@
 require('dotenv').config();
-require('http');
 
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var sequelize = require('./db.js');
 var User = sequelize.import('./models/users.js');
-
+var http = require('http').Server(app);
 //mongo setup
 // var mongoose = require('mongoose');
 // var mongodb = require('./db_mongo');
